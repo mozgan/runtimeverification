@@ -1,0 +1,36 @@
+
+/*
+ * the name of propositions should be in the form of p[0-9]+
+ */
+
+/*
+ * ignore C type comments
+ */
+
+# ignore this Python style comment
+
+
+
+always(p1 implies s_next p2)
+
+#always(p1 implies eventually p2)
+
+#not p1
+#p2
+#not p1
+#p1 or p2
+#p1 and p3
+#p5 implies p2
+#w_prev p2
+#s_prev p2
+#w_next p2
+#s_next p2
+#s_prev(w_prev(s_next p2))
+#eventually(p3 since p2)
+#p1 until p2
+#p2 until p3
+#eventually(p2 until p3)
+#always p7
+#always(p6 implies w_next p2)
+#once(p1 until p2)
+#historically (s_next (s_next p3))
